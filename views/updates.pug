@@ -6,7 +6,7 @@ html
         link(rel="stylesheet", href="/css/style.css")
     body    
         h1 Ajouter un nouvel objet personnalisé
-        form(action="/update-cobj", method="POST")
+        form(action="/update-cobj", class="form-wrapper" method="POST")
             label(for="nom") Nom:
             input(type="text", name="nom", required)
             label(for="description") Description:
